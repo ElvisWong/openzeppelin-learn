@@ -1,0 +1,54 @@
+{
+  "contracts": {
+    "Box": {
+      "address": "0xC89Ce4735882C9F0f0FE26686c53074E09B0D550",
+      "constructorCode": "608060405234801561001057600080fd5b50610163806100206000396000f3fe",
+      "bodyBytecodeHash": "9ab107bfd9716c4b70e17b334abe7d9d62b05d8a2ce3250358a737b7fb72d217",
+      "localBytecodeHash": "c4d8b9f5461f32f026ea6410f722494ff3127b1627d9bccf067e4402041e8157",
+      "deployedBytecodeHash": "c4d8b9f5461f32f026ea6410f722494ff3127b1627d9bccf067e4402041e8157",
+      "types": {
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        }
+      },
+      "storage": [
+        {
+          "contract": "Box",
+          "path": "contracts/Box.sol",
+          "label": "value",
+          "astId": 3,
+          "type": "t_uint256",
+          "src": "44:21:0"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": [],
+        "storageUncheckedVars": [],
+        "storageDiff": []
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {
+    "openzeppelin-learn/Box": [
+      {
+        "address": "0xCfEB869F69431e42cdB54A4F4f105C19C080A601",
+        "version": "1.0.0",
+        "implementation": "0xC89Ce4735882C9F0f0FE26686c53074E09B0D550",
+        "admin": "0x5b1869D9A4C187F2EAa108f3062412ecf0526b24",
+        "kind": "Upgradeable"
+      }
+    ]
+  },
+  "manifestVersion": "2.2",
+  "version": "1.0.0",
+  "proxyAdmin": {
+    "address": "0x5b1869D9A4C187F2EAa108f3062412ecf0526b24"
+  }
+}
